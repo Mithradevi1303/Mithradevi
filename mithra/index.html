@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Online Course Registration</h1>
+        <div class="courses">
+            <h2>Available Courses</h2>
+            <div id="course-list">
+                <!-- Courses will be displayed here -->
+            </div>
+        </div>
+
+        <div class="registration-form">
+            <h2>Register for a Course</h2>
+            <form id="registration-form">
+                <label for="name">Student Name:</label>
+                <input type="text" id="student-name" required>
+
+                <label for="course">Select Course:</label>
+                <select id="course-select" required>
+                    <!-- Course options will be populated here -->
+                </select>
+
+                <button type="submit">Register</button>
+            </form>
+            <div id="registration-message"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
